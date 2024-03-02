@@ -1,0 +1,48 @@
+.fp {
+  width: 100%;
+  width: 1024px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.fp .fp-item {
+  width: 280px !important;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  cursor: pointer;
+  background-color: #f1f1ff;
+  padding: 20px;
+  border-radius: 20px;
+}
+.fp .fp-item .fp-image {
+  width: 100%;
+  border-radius: 20px;
+}
+.fp .fp-item .fp-image:hover {
+  opacity: 0.7;
+}
+.fp .fp-item .fp-name {
+  font-weight: bold;
+  color: rgb(26, 81, 162);
+}
+.fp .fp-item .fp-city {
+  font-weight: 500;
+}
+.fp .fp-item .fp-price {
+  font-weight: 500;
+}
+.fp .fp-item .fp-rating button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 3px;
+  margin-right: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.fp .fp-item .fp-rating span {
+  font-size: 14px;
+}/*# sourceMappingURL=FeaturedProperties.css.map */
