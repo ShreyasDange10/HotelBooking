@@ -27,7 +27,8 @@ const Hotel = () => {
     return diffDays
   }
 
-  const days = dayDifference(searchData?.date[0].endDate, searchData?.date[0].startDate)
+  const daysCount = dayDifference(searchData?.date[0].endDate, searchData?.date[0].startDate)
+  const days = daysCount === 0 ? 1 : daysCount
 
   let { id } = useParams();
   
